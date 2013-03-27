@@ -1,0 +1,5 @@
+(include "Reflection.scm")
+
+(define (detect-recursion f)
+ "Do your magic here")
+

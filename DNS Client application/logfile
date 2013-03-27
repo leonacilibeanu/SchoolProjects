@@ -1,0 +1,90 @@
+
+; Trying: mail.google.com A
+
+;; ANSWER SECTION:
+mail.google.com.                                	596079	IN	CNAME	googlemail.l.google.com.
+googlemail.l.google.com.                        	165	IN	A	209.85.148.83
+googlemail.l.google.com.                        	165	IN	A	209.85.148.17
+googlemail.l.google.com.                        	165	IN	A	209.85.148.18
+googlemail.l.google.com.                        	165	IN	A	209.85.148.19
+
+;; AUTHORITY SECTION:
+google.com.                                     	164075	IN	NS	ns2.google.com.
+google.com.                                     	164075	IN	NS	ns1.google.com.
+google.com.                                     	164075	IN	NS	ns3.google.com.
+google.com.                                     	164075	IN	NS	ns4.google.com.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.                                 	338122	IN	A	216.239.32.10
+ns2.google.com.                                 	338122	IN	A	216.239.34.10
+ns3.google.com.                                 	338122	IN	A	216.239.36.10
+ns4.google.com.                                 	338122	IN	A	216.239.38.10
+
+; Trying: mail.google.com NS
+
+;; ANSWER SECTION:
+mail.google.com.                                	596074	IN	CNAME	googlemail.l.google.com.
+
+;; AUTHORITY SECTION:
+l.google.com.                                   	60	IN	SOA	ns2.google.com.	dns-admin.google.com. 1420139 644 644 1800 60
+
+; Trying: mail.google.com MX
+
+;; ANSWER SECTION:
+mail.google.com.                                	596071	IN	CNAME	googlemail.l.google.com.
+
+;; AUTHORITY SECTION:
+l.google.com.                                   	15	IN	SOA	ns4.google.com.	dns-admin.google.com. 1420139 644 644 1800 60
+
+; Trying: gmail.com MX
+
+;; ANSWER SECTION:
+gmail.com.                                      	1520	IN	MX	5	gmail-smtp-in.l.google.com.
+gmail.com.                                      	1520	IN	MX	10	alt1.gmail-smtp-in.l.google.com.
+gmail.com.                                      	1520	IN	MX	20	alt2.gmail-smtp-in.l.google.com.
+gmail.com.                                      	1520	IN	MX	30	alt3.gmail-smtp-in.l.google.com.
+gmail.com.                                      	1520	IN	MX	40	alt4.gmail-smtp-in.l.google.com.
+
+;; AUTHORITY SECTION:
+gmail.com.                                      	138157	IN	NS	ns4.google.com.
+gmail.com.                                      	138157	IN	NS	ns1.google.com.
+gmail.com.                                      	138157	IN	NS	ns3.google.com.
+gmail.com.                                      	138157	IN	NS	ns2.google.com.
+
+;; ADDITIONAL SECTION:
+gmail-smtp-in.l.google.com.                     	254	IN	A	173.194.70.27
+alt1.gmail-smtp-in.l.google.com.                	80	IN	A	173.194.71.26
+alt2.gmail-smtp-in.l.google.com.                	82	IN	A	74.125.127.26
+alt3.gmail-smtp-in.l.google.com.                	228	IN	A	173.194.77.26
+alt4.gmail-smtp-in.l.google.com.                	235	IN	A	209.85.225.27
+ns1.google.com.                                 	38413	IN	A	216.239.32.10
+ns2.google.com.                                 	2162	IN	A	216.239.34.10
+ns3.google.com.                                 	7402	IN	A	216.239.36.10
+ns4.google.com.                                 	38413	IN	A	216.239.38.10
+
+; Trying: google.com A
+
+;; ANSWER SECTION:
+google.com.                                     	57	IN	A	173.194.35.33
+google.com.                                     	57	IN	A	173.194.35.34
+google.com.                                     	57	IN	A	173.194.35.35
+google.com.                                     	57	IN	A	173.194.35.36
+google.com.                                     	57	IN	A	173.194.35.37
+google.com.                                     	57	IN	A	173.194.35.38
+google.com.                                     	57	IN	A	173.194.35.39
+google.com.                                     	57	IN	A	173.194.35.40
+google.com.                                     	57	IN	A	173.194.35.41
+google.com.                                     	57	IN	A	173.194.35.46
+google.com.                                     	57	IN	A	173.194.35.32
+
+;; AUTHORITY SECTION:
+google.com.                                     	163831	IN	NS	ns3.google.com.
+google.com.                                     	163831	IN	NS	ns2.google.com.
+google.com.                                     	163831	IN	NS	ns1.google.com.
+google.com.                                     	163831	IN	NS	ns4.google.com.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.                                 	337878	IN	A	216.239.32.10
+ns2.google.com.                                 	337878	IN	A	216.239.34.10
+ns3.google.com.                                 	337878	IN	A	216.239.36.10
+ns4.google.com.                                 	337878	IN	A	216.239.38.10

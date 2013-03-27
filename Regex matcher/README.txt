@@ -1,0 +1,17 @@
+Expresii Regulate
+
+	Algoritmul de rezolvare al temei este strucurat in 2 parti: partea de compilare (care apeleaza succesiv functiile "simpleParse" si "repeatParse") si partea de verificare (matching) (care apeleaza functia "matchExpression").
+
+	In partea de compilare se apeleaza initial functia "simpleParse", cu rolul de a stabili tipul fiecarui element din lista primita drept sablon (Elem, Group, TakeInterval, DropInterval, Dot, mai putin Repeat). Aparitiile cheie in evaluarea expresiei le reprezinta: - caracterul '[' - urmeaza un interval, determina apelul functiei "getInterval"
+			 - caracterul '(' - urmeaza o structura de tip grup, se apeleaza "getGroup"
+			 - caracterul '.' - element Dot
+			 - altfel va fi un element de tip Regex, (Elem x) care se adauga la lista nou creata
+	Functia "simpleParse" se apeleaza recursiv pentru tot sablonul si va returna o lista de tip Regex.
+	In constructia acestei liste se folosesc functii ajutatoare, cum ar fi: "getInterval" si "getGroup". In functia "getInterval" se evalueaza fiecare caracter continut intre paranteze patrate si se genereaza un interval, doar la aparitia caracterului '-'. Aceasta va returna o valoare de tip pereche, in care primul element este intervalul descoperit, iar al doilea este restul listei sablon ramasa neparcursa. Tipul intervalului se determina inca din functia "simpleParse". Daca exista un caracter '^' dupa prima paranteza patrata, va fi interval exclus = DropInterval, altfel va fi de tip TakeInterval.
+	Functia "getGroup" va intoarce o valoare de tip pereche, in care prima este o lista de liste care va apartine tipului Group si a doua, restul listei de tip sablon care nu a fost inca evaluata. "getGroup" primeste drept parametrii, pe langa lista in curs de evaluare si o lista grup, in care se va retine grupul aferent ultimei paranteze deschise, o lista gather in care se vor colecta grupurile la momentul inchiderii unei paranteze si o variabila n, numarul de paranteze deschise la un moment dat ( aceasta se incrementeaza daca apare un caracter '(' si se decrementeaza daca se intalneste ')' ).
+	In urma evaluarii sablonului cu functia "simpleParse", rezultatul obtinut este trimis drept parametru functiei "repeatParse", care va gasi si va inlocui structurile de tip Repeat. Pentru evaluarea listei in aceasta functie se foloseste proprietatea de pattern matching, pentru a trata fiecare tip Regex in parte. 
+
+
+	In partea de verificare se apeleaza direct functia "matchExpression" prin functia "compileRegex", avand drept parametrii sablonul de tip lista Regex si stringul a carui compatibilitate se verifica. Si in acest caz, elementele listei se evalueaza in functie de tipul Regex si se trateaza separat elementele de tip Group si Repeat in functiile "matchGroup" si "matchRepeat", apelandu-se, pentru toate celelalte functia "match". 
+	Functia "matchGroup" verifica daca cel putin o lista din cadrul listei primita ca parametru este compatibila cu stringul. Face append pentru lista din grup si restul listei, care urmeaza a fi comparata si reapeleaza "matchExpression" pentru a verifica structura nou obtinuta. Daca aceasta reprezinta structura cautata returneaza True, altfel continua cautarea in lista de liste a tipului Group. 
+	Functia "matchRepeat" adauga cate un element x din structura (Repeat x) la restul sablonului pana cand sablonul se va potrivi inputul sau lungimea sablonul va deveni mult mai mare decat lungimea inputului.
