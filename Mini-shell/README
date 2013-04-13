@@ -1,0 +1,77 @@
+﻿Cilibeanu Leona Camelia
+331CB
+
+/**
+ * Operating Sytems 2013 - Assignment 1
+ *
+ */
+ 
+To complete the Mini-shell implementation I used the given parser and wrote only 
+the utils-lin.c file.
+
+The program firstly evaluates each operator_t from the command_t structure. 
+Only then, the function 'parse_command' can decide how the given command will be 
+treated.
+
+
+Simple command
+	If there is a simple command, the function verifies if it is a 
+change-directory, exit or quit command and calls 'shell_cd' or 'shell_exit' 
+functions. For the cd command, the program also checks if the output is being 
+redirected using, in this case, the 'parse_simple' function. 
+	'parse_simple' function is, also, used by default if the given command 
+doesn't meet any of the previous conditions. To parse a simple command, it 
+checks one of the following three cases:
+		- Environment variable assignment: it will parse the value of 
+		the variable and add its name and value to the environment;
+		
+		- Internal command : simply executes the command;
+		
+		- External command : forks a new process and executes the 
+		command in the child process, not before verifying if the 
+		standard output, standard input or standard error are being 
+		redirected and redirect if it's the case. To accomplish this, 
+		it checks the value of  io_flags variable and calls either the 
+		'do_redirect' function or the 'do_redirect_out_err' function.  
+		The difference between the two of them is that the first one 
+		it's called in order to redirect standard output, error or 
+		input (regular or append), while the second one is used 
+		specifically for the redirection of both standard output and 
+		error to the same file;
+
+
+Sequential commands
+	It executes two commands, one after the other, by recursively calling 
+the 'parse_command' until it “breaks” both of them into simple commands.
+
+
+Parallel commands
+	To execute two commands simultaneously the program uses the 
+'do_on_parallel' function. Here, it will fork a new process and let the first 
+child to handle the first command. In order that both commands run at the same 
+time, the parent process will not wait for the first child to finish and fork 
+another process. The second child will now execute the second command, while 
+the parent process waits for its children to finish. 
+
+
+Conditional zero/non-zero commands
+	For the conditional zero commands, there will be both executed only 
+if the execution of the first command returns zero. 
+	For the conditional non-zero commands, the second command will be 
+executed only if the return value of the first command execution is not zero. 
+	As in the previous 'Sequential commands' case, the 'parse_command' 
+will be recursively called, in both cases, until it “breaks” the command into 
+simple commands.
+
+
+On-pipe commands
+	To redirect the output of the first command to the input of the 
+second one, the 'do_on_pipe' function will be needed. 
+	This function will run the commands by creating an anonymous pipe.
+Then, it will fork a new process.
+	The child will close the reading end of pipe and send stdout and 
+stderr to the writing end of pipe and then, execute the first command.
+	The parent process will close the writing end of pipe and send the 
+reading end to stdin. The parent will not wait for the child to finish and will 
+execute second command in order to ensure the communication between the two 
+processes.
