@@ -1,11 +1,13 @@
-﻿Cilibeanu Leona Camelia
-331CB
-
-/**
+﻿/**
  * Operating Sytems 2013 - Assignment 1
  *
+ * Cilibeanu Leona Camelia
+ * 331CB
  */
- 
+
+Mini-shell
+
+
 To complete the Mini-shell implementation I used the given parser and wrote only 
 the utils-lin.c file.
 
