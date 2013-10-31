@@ -1,0 +1,28 @@
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.FriendsList.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.Error.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.Login.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.Properties.Resources.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.csproj.GenerateResource.Cache
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\bin\Release\Messenger.exe
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\bin\Release\Messenger.pdb
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.exe
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.pdb
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.CreateAccount.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.EditProfile.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Release\Messenger.ViewOwnProfile.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\bin\Release\Messenger.exe
+C:\Users\Andrei\Desktop\Messenger\Messenger\bin\Release\Messenger.pdb
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.FindFriend.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.Password.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.CreateAccount.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.CreateGroup.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.Discussion.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.EditProfile.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.FriendsList.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.Error.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.Login.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.Properties.Resources.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.ViewOwnProfile.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.csproj.GenerateResource.Cache
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.exe
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Release\Messenger.pdb

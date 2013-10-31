@@ -1,0 +1,44 @@
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\bin\Debug\Messenger.exe
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\bin\Debug\Messenger.pdb
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.Form1.resources
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.Properties.Resources.resources
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.exe
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.pdb
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.Form2.resources
+C:\Users\_Leona_\AppData\Local\Temporary Projects\Messenger\obj\x86\Debug\Messenger.Form3.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.exe
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.pdb
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.Properties.Resources.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.Error.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.Login.resources
+C:\Users\_Leona_\Documents\Visual Studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.csprojResolveAssemblyReference.cache
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.CreateAccount.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.EditProfile.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.ViewOwnProfile.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.Password.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.creategroup.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.discussion.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.FriendsList.resources
+C:\Users\_Leona_\documents\visual studio 2010\Projects\Messenger\Messenger\obj\x86\Debug\Messenger.FindFriend.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.exe
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.pdb
+C:\Users\Andrei\Desktop\Messenger\Messenger\bin\Debug\Messenger.exe
+C:\Users\Andrei\Desktop\Messenger\Messenger\bin\Debug\Messenger.pdb
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.FindFriend.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.Password.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.CreateAccount.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.CreateGroup.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.Discussion.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.EditProfile.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.FriendsList.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.Error.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.Login.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.Properties.Resources.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.ViewOwnProfile.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.csproj.GenerateResource.Cache
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.ChangeFriendName.resources
+C:\Users\Andrei\Desktop\Messenger\Messenger\obj\x86\Debug\Messenger.csprojResolveAssemblyReference.cache

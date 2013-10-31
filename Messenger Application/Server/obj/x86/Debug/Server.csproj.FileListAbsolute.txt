@@ -1,0 +1,16 @@
+C:\Users\Andrei\Desktop\Server\bin\Debug\IpProject.exe.config
+C:\Users\Andrei\Desktop\Server\obj\x86\Debug\IpProject.exe
+C:\Users\Andrei\Desktop\Server\obj\x86\Debug\IpProject.pdb
+C:\Users\Andrei\Desktop\Server\bin\Debug\Datastore.mdf
+C:\Users\Andrei\Desktop\Server\bin\Debug\Datastore_log.ldf
+C:\Users\Andrei\Desktop\Server\bin\Debug\IpProject.exe
+C:\Users\Andrei\Desktop\Server\bin\Debug\IpProject.pdb
+C:\Users\Andrei\Desktop\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Adriana\Desktop\IP\Server\bin\Debug\IpProject.exe.config
+C:\Users\Adriana\Desktop\IP\Server\obj\x86\Debug\IpProject.exe
+C:\Users\Adriana\Desktop\IP\Server\obj\x86\Debug\IpProject.pdb
+C:\Users\Adriana\Desktop\IP\Server\bin\Debug\Datastore.mdf
+C:\Users\Adriana\Desktop\IP\Server\bin\Debug\Datastore_log.ldf
+C:\Users\Adriana\Desktop\IP\Server\bin\Debug\IpProject.exe
+C:\Users\Adriana\Desktop\IP\Server\bin\Debug\IpProject.pdb
+C:\Users\Adriana\Desktop\IP\Server\obj\x86\Debug\Server.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Andrei\Desktop\Server\bin\Release\Datastore.mdf
+C:\Users\Andrei\Desktop\Server\bin\Release\Datastore_log.ldf
+C:\Users\Andrei\Desktop\Server\bin\Release\IpProject.exe.config
+C:\Users\Andrei\Desktop\Server\bin\Release\IpProject.exe
+C:\Users\Andrei\Desktop\Server\bin\Release\IpProject.pdb
+C:\Users\Andrei\Desktop\Server\obj\x86\Release\IpProject.exe
+C:\Users\Andrei\Desktop\Server\obj\x86\Release\IpProject.pdb

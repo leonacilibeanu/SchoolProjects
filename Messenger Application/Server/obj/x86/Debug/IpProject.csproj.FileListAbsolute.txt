@@ -1,0 +1,7 @@
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Debug\Datastore.mdf
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Debug\Datastore_log.ldf
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Debug\IpProject.exe.config
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Debug\IpProject.exe
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Debug\IpProject.pdb
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\obj\x86\Debug\IpProject.exe
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\obj\x86\Debug\IpProject.pdb

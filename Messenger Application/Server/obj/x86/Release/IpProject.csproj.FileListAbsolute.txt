@@ -1,0 +1,7 @@
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Release\Datastore.mdf
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Release\Datastore_log.ldf
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Release\IpProject.exe.config
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Release\IpProject.exe
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\bin\Release\IpProject.pdb
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\obj\x86\Release\IpProject.exe
+C:\Users\Andrei\AppData\Local\Temporary Projects\IpProject\obj\x86\Release\IpProject.pdb
